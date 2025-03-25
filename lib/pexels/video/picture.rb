@@ -1,6 +1,6 @@
 class Pexels::Video::Picture
   attr_reader :id,
-              :picture
+              :picture,
               :nr
 
   def initialize(attrs)

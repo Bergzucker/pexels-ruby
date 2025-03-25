@@ -1,5 +1,9 @@
 # Change log
 
+## 0.6.1
+* Added `alt` to `Pexels::Photo`.
+* Fixed `nr` reader in `Pexels::Video::Picture`.
+
 ## 0.6.0
 * Added `fps` to `Pexels::Video::File`.
 
