@@ -4,6 +4,8 @@ module Pexels
   class PaginatedResponse
     include Enumerable
 
+    attr_reader :response, :attrs
+
     attr_reader :total_results,
       :page,
       :per_page,
@@ -50,7 +52,6 @@ module Pexels
 
     private
 
-    attr_reader :response, :attrs
 
     def request
       response.request
